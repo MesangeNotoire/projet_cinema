@@ -1,0 +1,55 @@
+body {
+    background-image: url(https://cdn.uppbeat.io/video/previews/video_contributor_profile_id=8/batch_id=1203/Projector03/Projector03_thumb.jpg);
+}
+
+#newreleases {
+    display : flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    margin-left: 5em;
+    margin-top: 12em;
+}
+
+div>img {
+    display: flex;
+    flex-direction: row;
+    width: 170px;
+    height: 240px;
+
+}
+
+.outputcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    height: 170px;
+    width: 210px;
+}
+
+#output1, #output2, #output3 {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: center;
+   font-family: 'Clarity City', sans-serif;
+   font-size: 1.2em;
+   text-decoration: none;
+   background-color: none;
+   color: var(--notwhite);
+   padding: 10px;
+   text-align: center;
+}
+
+.movie-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: var(--notwhite);
+    text-decoration: underline;
+    padding: 0.5em;
+    font-family: 'Clarity City', sans-serif;
+}
