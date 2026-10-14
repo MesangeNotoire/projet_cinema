@@ -41,7 +41,7 @@ padding: 1em;
     flex-direction: column;
 }
 
-.movie-title {
+#movie-title {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: var(--dark-mauve);
     text-decoration: none;
