@@ -1,0 +1,10 @@
+
+<nav>
+    <ul id="menu">
+        <li><a href="index.html" class="topmenu">Accueil</a></li>
+        <li><a href="films.html" class="topmenu">Rechercher un film</a></li>
+        <li><a href="contact.html" class="topmenu">Contact</a></li>
+    </ul>
+</nav>
+
+

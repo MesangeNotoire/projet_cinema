@@ -1,0 +1,69 @@
+:root {
+
+    --mauve: #9B6E76;
+    --dark-mauve: #403033;
+    --light-mauve: #D5C2BF;
+    --notwhite: #E7E5E6;
+    font-family: 'Clarity City', sans-serif;
+    font-family: 'impact', sans-serif;
+}
+
+
+
+.search-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5em;
+    margin-left: 1em;
+}
+
+.film-cards {
+display: grid;
+grid-template-columns: 25% 25% 25% 25%;
+gap: .5rem;
+margin-top: 1rem;
+
+}
+
+.card {
+    border: 1px var(--dark-mauve);
+    background-color: #9B6E76;
+}
+
+.card> .poster {
+    display: flex;
+        justify-self: center;
+        align-self: center;
+    width: 170px;
+    height: 240px;
+
+    >* {
+        width: 170px;
+        height: 240px;
+    }
+
+}
+
+
+
+.card> .title {
+    display: flex;
+        justify-self: center;
+        align-self: center;
+    font-family: 'Clarity City', sans-serif;
+    color: var(--notwhite);
+}
+
+.card> .lien {
+    display: flex;
+        justify-self: center;
+        align-self: center;
+    font-family: 'Clarity City', sans-serif;
+    color: var(--notwhite);
+}
+
+.hide {
+    display: none;
+}
+
+
