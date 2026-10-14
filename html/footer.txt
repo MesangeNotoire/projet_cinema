@@ -1,10 +1,8 @@
-
 <nav>
-    <ul id="menu">
-        <li><a href="index.html" class="topmenu">Accueil</a></li>
-        <li><a href="films.html" class="topmenu">Rechercher un film</a></li>
-        <li><a href="contact.html" class="topmenu">Contact</a></li>
+    <ul id="navigation">
+        <li><a href="index.html" class="bottom-menu">Accueil</a></li>
+        <li><a href="films.html" class="bottom-menu">Rechercher un film</a></li>
+        <li><a href="contact.html" class="bottom-menu">Contact</a></li>
+        <li><a href="contact.html" class="bottom-menu">Retour en haut</a></li>
     </ul>
 </nav>
-
-

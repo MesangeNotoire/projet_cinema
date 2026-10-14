@@ -1,0 +1,33 @@
+:root {
+    --mauve: #9B6E76;
+    --dark-mauve: #403033;
+    --light-mauve: #D5C2BF;
+    --notwhite: #E7E5E6;
+    font-family: 'Clarity City', sans-serif;
+    font-family: 'impact', sans-serif;
+}
+
+#navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: flex-end;
+   font-family: 'Clarity City', sans-serif;
+   font-size: 1em;
+   list-style: none;
+   text-decoration: none;
+   background-color: none;
+   color: var(--notwhite);
+   padding: 10px;
+   text-align: center;
+   :hover {
+    color: var(--light-mauve);
+}
+}
+
+.bottom-menu { 
+    color: var(--notwhite);
+    text-decoration: none;
+    padding: 0.5em;
+}
+

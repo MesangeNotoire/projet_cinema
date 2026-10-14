@@ -21,6 +21,9 @@
    color: var(--notwhite);
    padding: 10px;
    text-align: center;
+   :hover {
+    color: var(--light-mauve);
+}
 }
 
 .topmenu {
@@ -29,6 +32,3 @@
     padding: 0.5em;
 }
 
-:hover {
-    color: var(--light-mauve);
-}

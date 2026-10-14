@@ -1,0 +1,51 @@
+:root {
+
+    --mauve: #9B6E76;
+    --dark-mauve: #403033;
+    --light-mauve: #D5C2BF;
+    --notwhite: #E7E5E6;
+    font-family: 'Clarity City', sans-serif;
+    font-family: 'impact', sans-serif;
+}
+
+
+#movie-section {
+display: flex;
+flex-direction: row;
+background-color: var(--notwhite);
+opacity: 0.75;
+padding: 1em;
+
+}
+
+.poster-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 400px;
+    height: 32em;
+    padding-right: 3em;
+    >img {
+        width: 400px;
+        align-self: center;
+        height: fit-content;
+    }
+}
+
+.description {
+    font-family: 'Clarity City', sans-serif;
+    color: var(--mauve);
+    font-size: 1em;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--dark-mauve);
+    text-decoration: none;
+    font-size: 2em;
+    padding: 0%;
+}
+
