@@ -18,7 +18,7 @@ padding: 1em;
 
 }
 
-.poster-wrapper {
+#poster-wrapper {
     display: flex;
     flex-direction: row;
     align-self: center;
@@ -26,9 +26,9 @@ padding: 1em;
     height: 32em;
     padding-right: 3em;
     >img {
-        width: 400px;
-        align-self: center;
-        height: fit-content;
+        width: 350px;
+        height: 500px;
+        align-self: center;;
     }
 }
 

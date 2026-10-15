@@ -1,7 +1,9 @@
+
+//const imdbID =
 addEventListener("load", getMoviePage);
 
 function getMoviePage() {
-    fetch("http://www.omdbapi.com/?i=tt32558705&plot=full&apikey=73cc4c28")
+    fetch(`http://www.omdbapi.com/?i=${imdbID}&plot=full&apikey=73cc4c28`)
         .then(response => response.json())
         .then(data => {
             const title = data.Title;
