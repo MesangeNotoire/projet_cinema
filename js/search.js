@@ -1,9 +1,5 @@
-/*fonction
-prend en compte ce que je tape dans la barre de recherche --> id filmTitle // récupérer la valeur à l'intérieur (la localiser) 
-// avec un event listener
-va chercher dans l'API
-les résultats correspondants
-affiche titres */
+/* gérer quand pas de résultats
+page accueil charger 10 films */
 
 
 const input = document.querySelector("input");

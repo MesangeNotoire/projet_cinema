@@ -1,6 +1,6 @@
 :root {
 
-    --mauve: #9B6E76;
+    --mauve: #D3989B;
     --dark-mauve: #403033;
     --light-mauve: #D5C2BF;
     --notwhite: #E7E5E6;
@@ -27,7 +27,7 @@ margin-top: 1rem;
 
 .card {
     border: 1px var(--dark-mauve);
-    background-color: #9B6E76;
+    background-color: var(--mauve);
 }
 
 .card> .poster {
