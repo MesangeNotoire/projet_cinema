@@ -98,6 +98,17 @@ body {
 
 }
 
+.btn {
+    text-decoration: none;
+    font-family: 'Clarity City', sans-serif;
+    padding: 0.5rem 1rem;
+    background: var(--notwhite);
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 
 
 

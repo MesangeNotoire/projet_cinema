@@ -31,3 +31,9 @@
     padding: 0.5em;
 }
 
+#mentions-legales {
+    font-family: 'Clarity City', sans-serif;
+    font-size: 1em;
+    color: var(--notwhite);
+    padding: 3em;
+}
