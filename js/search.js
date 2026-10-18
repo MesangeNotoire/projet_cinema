@@ -33,3 +33,6 @@ function getTitle() {
  .catch(error => console.error(error));
 }
 
+
+/* - afficher le bouton seulement si nombre de résultats >10
+   - utiliser la même fonction mais demander de load la page suivante, puis la page suivante */

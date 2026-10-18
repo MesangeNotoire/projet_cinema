@@ -110,6 +110,16 @@ body {
 }
 
 
+.film-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    margin-top: 2em;
+    gap: 4em;
+}
+
 
 
 #movies2026 {

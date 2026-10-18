@@ -12,9 +12,10 @@
 
 .search-wrapper {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    height: 2em;
     margin-top: 5em;
-    margin-left: 1em;
+    margin-bottom: 3em;
 }
 
 .film-cards {
@@ -45,7 +46,6 @@ margin-top: 1rem;
 }
 
 
-
 .card> .title {
     display: flex;
         justify-self: center;
@@ -64,6 +64,18 @@ margin-top: 1rem;
 
 .hide {
     display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+film-cards {
+grid-template-columns: 50% 50%;
+gap: .5rem;
+margin-top: 1rem;
+    
+}
+
 }
 
 
