@@ -65,5 +65,13 @@ justify-content: space-around;
     display: none;
 }
 
+#btnsearch {
+display: flex;
+justify-self: center;
+align-items: center;
+margin-top: 2em;
+
+}
+
 
 
