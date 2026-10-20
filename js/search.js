@@ -1,6 +1,3 @@
-/* gérer quand pas de résultats
-page accueil charger 10 films */
-
 
 const input = document.querySelector("input");
 const title = document.getElementById("title");
@@ -31,6 +28,7 @@ function getTitle() {
     card.querySelector("#title h2").innerHTML = `${title}`;
     card.querySelector("#imdb a").setAttribute("href",`movie.html?id=${imdbID}`);
     card.querySelector("img").setAttribute("src",`http://img.omdbapi.com/?i=${imdbID}&apikey=73cc4c28`);
+    card.querySelector("img").setAttribute("alt",  `Affiche du film ${title}`);
     filmCards.append(card);
 })
  })
@@ -53,6 +51,4 @@ function loadMore() {
 img.addEventListener("error", function(event) {
   event.target.src = "https://us.123rf.com/450wm/pavelstasevich/pavelstasevich1811/pavelstasevich181101028/112815904-no-image-available-icon-flat-vector-illustration.jpg?ver=6"
   event.onerror = null
-})
-
-
+})*/
