@@ -19,10 +19,9 @@
 }
 
 .film-cards {
-display: grid;
-grid-template-columns: 25% 25% 25% 25%;
-gap: .5rem;
-margin-top: 1rem;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
 
 }
 
@@ -66,16 +65,5 @@ margin-top: 1rem;
     display: none;
 }
 
-
-@media only screen and (max-width: 600px) {
-
-film-cards {
-grid-template-columns: 50% 50%;
-gap: .5rem;
-margin-top: 1rem;
-    
-}
-
-}
 
 

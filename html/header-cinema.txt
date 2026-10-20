@@ -1,5 +1,6 @@
 
-<nav>
+<nav id="barre">
+    <img src="../images_ressources/Simple_Studio_de_Cinéma_Logo-removebg-preview.png" id="logociné"/>
     <ul id="menu">
         <li><a href="./index.html" class="topmenu">Accueil</a></li>
         <li><a href="./search.html" class="topmenu">Rechercher un film</a></li>

@@ -13,6 +13,8 @@ body {
     background-image: url(https://cdn.uppbeat.io/video/previews/video_contributor_profile_id=8/batch_id=1203/Projector03/Projector03_thumb.jpg);
 }
 
+
+
 #newreleases {
     display: flex;
     flex-direction: row;
@@ -20,7 +22,7 @@ body {
     justify-content: flex-start;
     align-content: center;
     margin-left: 5em;
-    margin-top: 10em;
+    margin-top: 5em;
     gap: 4em;
 }
 
@@ -99,6 +101,7 @@ body {
 }
 
 .btn {
+    
     text-decoration: none;
     font-family: 'Clarity City', sans-serif;
     padding: 0.5rem 1rem;

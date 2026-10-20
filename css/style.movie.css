@@ -34,7 +34,7 @@ padding: 1em;
 
 .description {
     font-family: 'Clarity City', sans-serif;
-    color: var(--mauve);
+    color: var(--dark-mauve);
     font-size: 1em;
     text-align: left;
     display: flex;
@@ -48,9 +48,3 @@ padding: 1em;
     font-size: 2em;
     padding: 0%;
 }
-
-@media only screen and (max-width: 600px) {
-
-    
-}
-
