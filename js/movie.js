@@ -16,7 +16,7 @@ function getMoviePage() {
             document.querySelector("#movie-genre p").innerHTML = `${genre}`;
             document.querySelector("#movie-actors p").innerHTML = `${actors}`;
             document.querySelector("#movie-synopsis p").innerHTML = `${plot}`;
-            document.querySelector("img").setAttribute("src",`http://img.omdbapi.com/?i=${imdbID}&apikey=73cc4c28`);
+            document.querySelector("#img1").setAttribute("src",`http://img.omdbapi.com/?i=${imdbID}&apikey=73cc4c28`);
         })
         .catch(error => console.error(error));
 }

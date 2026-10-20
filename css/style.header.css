@@ -19,21 +19,15 @@
         height: 120px;
     }
 
-    >.topmenu {
-     display: flex;
-    flex-direction: row;
-    justify-self: flex-end;
-    gap: 1em;
-   font-family: 'impact', sans-serif;
-   font-size: 1.2em;
-   list-style: none;
-   text-decoration: none;
-   background-color: none;
-   color: var(--notwhite);
-   padding: 10px;
-   text-align: center;
-   :hover {
-    color: var(--light-mauve);
+    >#menu {
+        display: flex;
+        justify-self: flex-end;
+        font-family: 'impact', sans-serif;
+        font-size: 1.2em;
+        list-style: none;
+        text-align: center;
+        :hover {
+      color: var(--light-mauve);
 
 
     }
@@ -43,19 +37,14 @@
 .topmenu {
     display: flex;
     flex-direction: row;
-    justify-self: flex-end;
+    justify-items: flex-end;
+    text-decoration: none;
+    color: var(--notwhite);
     gap: 1em;
-   font-family: 'impact', sans-serif;
-   font-size: 1.2em;
-   list-style: none;
-   text-decoration: none;
-   background-color: none;
-   color: var(--notwhite);
-   padding: 10px;
-   text-align: center;
-   :hover {
-    color: var(--light-mauve);
+    background-color: none;
+    padding: 10px;
+    }
 }
-}
+
 
 
