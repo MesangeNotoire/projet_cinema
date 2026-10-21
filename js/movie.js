@@ -1,7 +1,16 @@
+/* Au chargement de la page film, lancer la fonction getMoviePage */
+
 addEventListener("load", getMoviePage);
+
+/* Cette fonction a besoin de l'ID du film pour fonctionner, 
+elle va aller la récupérer dans la carte du film sélectionné par l'utilisateur du site qui a cliqué
+sur le bouton 'Voir Plus' */
 
 let params = new URLSearchParams(document.location.search);
 let imdbID = params.get("id");
+
+/* Cette fonction récupère les données de l'API, plus précisément du film sélectionné via son ID
+et va retourner les données Json suivantes du film : titre, genre, acteurs, long résumé */
 
 function getMoviePage() {
   fetch(`http://www.omdbapi.com/?i=${imdbID}&plot=full&apikey=73cc4c28`)
