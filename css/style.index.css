@@ -138,3 +138,16 @@ body {
     padding: 5px;
     text-align: center;
 }
+
+
+@media only screen and (max-width: 600px) {
+    #newreleases {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 2em;
+    
+}
+}
