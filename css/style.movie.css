@@ -10,11 +10,11 @@
 
 
 #movie-section {
-display: flex;
-flex-direction: row;
-background-color: var(--notwhite);
-opacity: 0.75;
-padding: 1em;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--notwhite);
+    opacity: 0.75;
+    padding: 1em;
 
 }
 
@@ -25,10 +25,12 @@ padding: 1em;
     width: 400px;
     height: 32em;
     padding-right: 3em;
+
     >img {
         width: 350px;
         height: 500px;
-        align-self: center;;
+        align-self: center;
+        ;
     }
 }
 
@@ -53,25 +55,27 @@ padding: 1em;
 @media only screen and (max-width: 800px) {
 
     #movie-section {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--notwhite);
-    opacity: 0.75;  
-    padding: 1em;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--notwhite);
+        opacity: 0.75;
+        padding: 1em;
 
-}
+    }
 
     #poster-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    width: 200px;
-    height: 16em;
-    >img {
-        width: 175px;
-        height: 250px;
-        align-self: center;;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 200px;
+        height: 16em;
+
+        >img {
+            width: 175px;
+            height: 250px;
+            align-self: center;
+            ;
+        }
     }
-}
-    
+
 }

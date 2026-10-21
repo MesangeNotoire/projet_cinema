@@ -11,20 +11,21 @@
     display: flex;
     flex-direction: row;
     gap: 1em;
-   font-family: 'Clarity City', sans-serif;
-   font-size: 1em;
-   list-style: none;
-   text-decoration: none;
-   background-color: none;
-   color: var(--notwhite);
-   padding: 10px;
-   text-align: center;
-   :hover {
-    color: var(--light-mauve);
-}
+    font-family: 'Clarity City', sans-serif;
+    font-size: 1em;
+    list-style: none;
+    text-decoration: none;
+    background-color: none;
+    color: var(--notwhite);
+    padding: 10px;
+    text-align: center;
+
+    :hover {
+        color: var(--light-mauve);
+    }
 }
 
-.bottom-menu { 
+.bottom-menu {
     color: var(--notwhite);
     text-decoration: none;
     padding: 0.5em;

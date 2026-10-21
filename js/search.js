@@ -1,4 +1,3 @@
-
 const input = document.querySelector("input");
 const title = document.getElementById("title");
 const filmInfoTemplate = document.querySelector("#film-info-template");
@@ -6,46 +5,51 @@ const filmCards = document.querySelector(".film-cards");
 let page = 1;
 
 input.addEventListener("keyup", () => {
-   page = 1;
-   filmCards.innerHTML="";
-   getTitle();
-
+  page = 1;
+  filmCards.innerHTML = "";
+  getTitle();
 });
 
 function getTitle() {
- const urlSearch = `http://www.omdbapi.com/?s=${input.value}&page=${page}&apikey=73cc4c28`;
- fetch(urlSearch) .then(response=> response.json())
- .then(data=> {
-    return data.Search.map((film)=>{
-        return{imdbID:film.imdbID, title:film.Title}
+  const urlSearch = `http://www.omdbapi.com/?s=${input.value}&page=${page}&apikey=73cc4c28`;
+  fetch(urlSearch)
+    .then((response) => response.json())
+    .then((data) => {
+      return data.Search.map((film) => {
+        return { imdbID: film.imdbID, title: film.Title };
+      });
     })
- })
- .then(films => {
-    films.forEach(film=>{
-    const title = film.title;
-    const imdbID = film.imdbID;
-    const card = filmInfoTemplate.content.cloneNode(true).children[0];
-    card.querySelector("#title h2").innerHTML = `${title}`;
-    card.querySelector("#imdb a").setAttribute("href",`movie.html?id=${imdbID}`);
-    card.querySelector("img").setAttribute("src",`http://img.omdbapi.com/?i=${imdbID}&apikey=73cc4c28`);
-    card.querySelector("img").setAttribute("alt",  `Affiche du film ${title}`);
-    filmCards.append(card);
-})
- })
+    .then((films) => {
+      films.forEach((film) => {
+        const title = film.title;
+        const imdbID = film.imdbID;
+        const card = filmInfoTemplate.content.cloneNode(true).children[0];
+        card.querySelector("#title h2").innerHTML = `${title}`;
+        card
+          .querySelector("#imdb a")
+          .setAttribute("href", `movie.html?id=${imdbID}`);
+        card
+          .querySelector("img")
+          .setAttribute(
+            "src",
+            `http://img.omdbapi.com/?i=${imdbID}&apikey=73cc4c28`,
+          );
+        card
+          .querySelector("img")
+          .setAttribute("alt", `Affiche du film ${title}`);
+        filmCards.append(card);
+      });
+    })
 
- .catch(error => console.error(error));
+    .catch((error) => console.error(error));
 }
-
 
 addEventListener("click", loadMore);
 
 function loadMore() {
-   page++
-   getTitle();
+  page++;
+  getTitle();
 }
-
-
-
 
 /*const img = document.getElementById("image")
 img.addEventListener("error", function(event) {

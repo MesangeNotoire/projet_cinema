@@ -1,3 +1,3 @@
-$(function(){
-      $("#topmenu").load("./header-cinema.txt"); 
-    });
+$(function () {
+  $("#topmenu").load("./header-cinema.txt");
+});

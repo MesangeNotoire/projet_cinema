@@ -10,7 +10,7 @@
 
 
 #barre {
-    display:flex;
+    display: flex;
     flex-direction: row;
 
     >img {
@@ -27,25 +27,23 @@
         font-size: 1.2em;
         list-style: none;
         text-align: center;
+
         :hover {
-      color: var(--light-mauve);
+            color: var(--light-mauve);
 
+
+        }
 
     }
 
-}
-
-.topmenu {
-    display: flex;
-    flex-direction: row;
-    justify-items: flex-end;
-    text-decoration: none;
-    color: var(--notwhite);
-    gap: 1em;
-    background-color: none;
-    padding: 10px;
+    .topmenu {
+        display: flex;
+        flex-direction: row;
+        justify-items: flex-end;
+        text-decoration: none;
+        color: var(--notwhite);
+        gap: 1em;
+        background-color: none;
+        padding: 10px;
     }
 }
-
-
-

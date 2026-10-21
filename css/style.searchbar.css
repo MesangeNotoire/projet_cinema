@@ -19,9 +19,9 @@
 }
 
 .film-cards {
-display: flex;
-flex-direction: row;
-justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
 }
 
@@ -30,10 +30,10 @@ justify-content: space-around;
     background-color: var(--mauve);
 }
 
-.card> .poster {
+.card>.poster {
     display: flex;
-        justify-self: center;
-        align-self: center;
+    justify-self: center;
+    align-self: center;
     width: 170px;
     height: 240px;
 
@@ -45,18 +45,18 @@ justify-content: space-around;
 }
 
 
-.card> .title {
+.card>.title {
     display: flex;
-        justify-self: center;
-        align-self: center;
+    justify-self: center;
+    align-self: center;
     font-family: 'Clarity City', sans-serif;
     color: var(--notwhite);
 }
 
-.card> .lien {
+.card>.lien {
     display: flex;
-        justify-self: center;
-        align-self: center;
+    justify-self: center;
+    align-self: center;
     font-family: 'Clarity City', sans-serif;
     color: var(--notwhite);
 }
@@ -66,12 +66,9 @@ justify-content: space-around;
 }
 
 #btnsearch {
-display: flex;
-justify-self: center;
-align-items: center;
-margin-top: 2em;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-top: 2em;
 
 }
-
-
-

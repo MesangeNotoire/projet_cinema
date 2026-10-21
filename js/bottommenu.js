@@ -1,3 +1,3 @@
-$(function(){
-      $("#bottom-menu").load("./footer.txt"); 
-    });
+$(function () {
+  $("#bottom-menu").load("./footer.txt");
+});
