@@ -63,6 +63,9 @@ function getFilm2026() {
             "src",
             `http://img.omdbapi.com/?i=${imdbID}&apikey=73cc4c28`,
           );
+          card
+          .querySelector("img")
+          .setAttribute("alt", `Affiche du film ${title}`);
         filmCards.append(card);
       });
     })
