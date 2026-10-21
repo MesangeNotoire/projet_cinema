@@ -48,3 +48,30 @@ padding: 1em;
     font-size: 2em;
     padding: 0%;
 }
+
+
+@media only screen and (max-width: 800px) {
+
+    #movie-section {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--notwhite);
+    opacity: 0.75;  
+    padding: 1em;
+
+}
+
+    #poster-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 200px;
+    height: 16em;
+    >img {
+        width: 175px;
+        height: 250px;
+        align-self: center;;
+    }
+}
+    
+}
